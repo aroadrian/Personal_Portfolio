@@ -14,23 +14,23 @@
         }
     </script>
 </head>
-<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+<body class="bg-[#e3a45c] dark:bg-gray-900 text-gray-900 dark:text-white">
     <!-- Navigation -->
-    <nav class="bg-white dark:bg-gray-800 shadow-lg">
+    <nav class="bg-[#101820] dark:bg-lime-800 shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-7">
                     <div>
                         <a href="/" class="flex items-center py-4 px-2">
-                            <span class="font-semibold text-gray-500 dark:text-white text-lg">Personal Porfolio</span>
+                            <span class="font-semibold text-white dark:text-white text-lg hover:text-yellow-700">Personal Porfolio</span>
                         </a>
                     </div>
                 </div>
                 <div class="flex items-center space-x-1">
-                    <a href="/" class="py-4 px-2 text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Home</a>
-                    <a href="/about" class="py-4 px-2 text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
-                    <a href="/projects" class="py-4 px-2 text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Projects</a>
-                    <a href="/contact" class="py-4 px-2 text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a>
+                    <a href="/" class="font-semibold py-4 px-2 text-white dark:text-gray-300 hover:text-yellow-700 ">Home</a>
+                    <a href="/about" class="font-semiboldpy-4 px-2 text-white dark:text-gray-300 hover:text-yellow-700 ">About</a>
+                    <a href="/projects" class="font-semibold py-4 px-2 text-white dark:text-gray-300 hover:text-yellow-700 ">Projects</a>
+                    <a href="/contact" class="font-semiboldpy-4 px-2 text-white dark:text-gray-300 hover:text-yellow-700 ">Contact</a>
                 </div>
             </div>
         </div>
@@ -38,13 +38,15 @@
 
     <!-- Content -->
     <main class="container mx-auto px-4 py-8">
-        {% block content %}{% endblock %}
+        {% block content %}
+        
+        {% endblock %}
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white dark:bg-gray-800 shadow-lg mt-8">
+    <footer class="bg-[#e3a45c]  shadow-lg mt-8">
         <div class="max-w-6xl mx-auto px-4 py-4">
-            <p class="text-center text-gray-500 dark:text-gray-300">
+            <p class="text-center text-Stone-950 dark:text-gray-300">
                 © 2025 Portfolio. All rights reserved.
             </p>
         </div>
